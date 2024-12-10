@@ -1,14 +1,10 @@
 <template>
-  <!DOCTYPE html>
-  <html lang="es">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Portfolio</title>
-  </head>
-  <body>
+    
+ 
+
     <div class="contenedor-header">
     <header>
         <div class="logo">
@@ -22,7 +18,7 @@
         <li><a href="#skills">SKILLS</a></li>
         <li><a href="#curriculum">CURRICULUM</a></li>
         <li><a href="#portfolio">PORTFOLIO</a></li>
-        <li><a href="#contacto">CONTACTO</a></li>
+        
        </ul>
      </nav>
    <div class="nav-responsive">
@@ -39,10 +35,9 @@
         <h1>YASSER BRACHO</h1>
         <h2>Ingeniero de sistemas - Frontend Developer </h2>
         <div class="redes">
-          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-          <a href="#"><i class="fa-brands fa-twitter"></i></a>
-          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-          <a href="#"><i class="fa-brands fa-github"></i></a>
+          <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="https://www.linkedin.com/in/yasser-bracho-a577331ba/"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://github.com/yasserbv"><i class="fa-brands fa-github"></i></a>
         </div>
       </div>
     </selection>
@@ -61,7 +56,7 @@
                 </li>
                 <li>
                   <strong>Telefonos</strong>
-                  320 884 0876
+                  310 348 7741
                 </li>
                 <li>
                   <strong>Email</strong>
@@ -98,7 +93,7 @@
               </div>
               <div class="interes">
                 <i class="fa-solid fa-cubes"></i>
-                <span>IMPRECION 3D</span>
+                <span>IMPRESION 3D</span>
               </div>
               <div class="interes">
                 <i class="fa-solid fa-book"></i>
@@ -115,17 +110,116 @@
              </div>
             </div>
           </div>
-          <BUtton>
+
+          <a href="@asseets/archivo/cv_yasser.pdf" download="cv">
             Descargar CV <i class="fa-solid fa-download"></i>
             <span class="overlay">
             </span>
-          </BUtton>
+          </a>
       </div>
     </section>
-    
 
-  </body>
-  </html>
+    <section class="skills" id="skills">
+      <div class="contenedor-seccion">
+        <h2>Skills</h2>
+        <div class="fila">
+          <div class="col">
+            <h3>Technical Skills</h3>
+            <div class="skills">
+
+              <span>Python</span>
+              <div class="barra-skills">
+                <div class="progreso">
+                  <span>75%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skills">
+              <span>HTML , CSS & JavaScript</span>
+              <div class="barra-skills">
+                <div class="progreso">
+                  <span>89%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skills">
+              <span>Vue.js</span>
+              <div class="barra-skills">
+                <div class="progreso">
+                  <span>60%</span>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+
+          <div class="col">
+            <h3>Professional Skills</h3>
+            <div class="skills">
+              <span>Comunicacion</span> 
+              <div class="barra-skills">
+                <div class="progreso">
+                  <span>75%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skills">
+              <span>Trabajo en Equipo</span>
+              <div class="barra-skills">
+                <div class="progreso">
+                  <span>70%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skills">
+              <span>Creatividad</span>
+              <div class="barra-skills">
+                <div class="progreso">
+                  <span>90%</span>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+  
+  <section class="curriculum" id="curriculum">
+    <div class="contenido-section">
+      <h2>curriculum</h2>
+      <div class="fila">
+        <div class="col izquierda">
+          <div class="col izquierda">
+          <h3>Educacion</h3>
+          <div class="item izq">
+            <h4>INGENIERIA DE SISTEMAS</h4>
+            <span class="casa">Universidad de la guajira</span>
+            <span class="fecha">2016 - 2023</span>
+            <p>Durante mi tiempo en la Universidad de La Guajira, obtuve una formación integral en Ingeniería de Sistemas, donde adquirí conocimientos fundamentales en áreas como programación, diseño de software, bases de datos y seguridad informática. Participé activamente en proyectos académicos que me permitieron aplicar mis habilidades en entornos prácticos, desarrollando soluciones innovadoras para desafíos tecnológicos.</p>
+            <div class="conectori">
+              <div class="circuloi"></div>
+            </div>
+          </div>
+        </div>
+         </div>
+
+         <div class="col derecha">
+          <h3>Experiencia de trabajo</h3>
+          <div class="item der">
+            <h4>DESARROLLADOR FRONT END</h4>
+            <span class="casa">FREE LANCE</span>
+            <span class="fecha">2018 - 2024</span>
+            <p>Como desarrollador web freelance, he tenido el privilegio de trabajar en una variedad de proyectos emocionantes y desafiantes, lo que me ha permitido expandir mis habilidades y conocimientos en el campo del desarrollo web. Durante este período, colaboré estrechamente con una diversidad de clientes, desde pequeñas empresas locales hasta startups en crecimiento y empresas internacionales.</p>
+            <div class="conectord">
+              <div class="circulod"></div>
+            </div>
+          </div>
+         </div>
+         </div>
+         </div>
+  </section>
+
 
 </template>
 
@@ -346,7 +440,7 @@ cursor: pointer;
   font-size: 30px;
   margin-bottom: 10px;
 }
-.sobremi button{
+.sobremi a{
 cursor: pointer;
 background-color: transparent;
 border: 2px solid #ffff;
@@ -358,8 +452,9 @@ font-size: 16px;
 color: #ffff;
 position: relative;
 z-index: 10;
+text-decoration: none;
 }
-.sobremi button .overlay{
+.sobremi a .overlay{
 position: absolute;
 top: 0;
 left: 0;
@@ -369,10 +464,303 @@ background-color: #1CB698;
 z-index: -1;
 transition: 1s;
 }
-.sobremi button:hover .overlay{
+.sobremi a:hover .overlay{
 width: 100%;
+}
+
+.skills{
+background-color: #252A2E;
+color: #ffff;
+padding: 0px 50px ;
 
 }
+
+.skills .contenido-seccion{
+  max-width: 1100px;
+  margin: auto;
+}
+.skills h2{
+  font-size: 48px;
+  font-family: 'Righteous';
+  text-align: center;
+  padding: 20px 0;
+}
+
+.skills .fila{
+display: flex;
+}
+.skills .fila .col{
+  width: 50%;
+  padding: 0 20px;
+}
+
+.skills .fila .col h3{
+  font-size:  28px;
+  font-family: 'Righteous';
+  margin-bottom: 25px;
+  margin-left: 10%;
+}
+
+.skills .skills > span{
+font-weight: bold;
+display: block;
+margin-bottom: 10px;
+}
+.skills .skills .barra-skills{
+  height:8px;
+  width: 80%;
+  background-color: #131517;
+  position: relative;
+  margin-bottom: 30px;
+}
+.skills .skills .progreso{
+  background-color: #1CB698;
+  position:absolute;
+  top: 0;
+  left: 0;
+  height: 8px;
+}
+.skills .skills .barra-skills span{
+position:absolute;
+height: 40px;
+width: 40px;
+background-color: #1CB698;
+border-radius: 50px;
+line-height: 40px;
+text-align: center;
+top:-17px;
+right: -15px;
+font-size: 14px;
+}
+
+.skills .skills .javascript{
+  width: 0%;
+  animation: 2s javascript forwards;
+}
+@keyframes javascript{
+  0%{width: 0%;}
+  100%{width: 75%;}
+}
+
+.skills .skills .htmlcss{
+  width: 0%;
+  animation: 2s htmlcss forwards;
+}
+@keyframes htmlcss{
+  0%{width: 0%;}
+  100%{width: 89%;}
+}
+.skills .skills .vuejs{
+  width: 0%;
+  animation: 2s vuejs forwards;
+}
+@keyframes vuejs{
+  0%{width: 0%;}
+  100%{width: 60%;}
+}
+
+.skills .skills .comunicacion{
+  width: 0%;
+  animation: 2s comunicacion forwards;
+}
+@keyframes comunicacion{
+  0%{width: 0%;}
+  100%{width: 75%;}
+}
+
+.skills .skills .trabajo{
+  width: 0%;
+  animation: 2s trabajo forwards;
+}
+@keyframes trabajo{
+  0%{width: 0%;}
+  100%{width: 70%;}
+}
+
+.skills .skills .Creatividad{
+  width: 0%;
+  animation: 2s Creatividadforwards;
+}
+@keyframes Creatividad{
+  0%{width: 0%;}
+  100%{width: 90%;}
+}
+
+
+
+.curriculum{
+background-color: #1e2326;
+color: #ffff;
+padding: 0px 50px ;
+
+}
+
+.curriculum .contenido-seccion{
+  max-width: 1100px;
+  margin: auto;
+}
+.curriculum h2{
+  font-size: 48px;
+  font-family: 'Righteous';
+  text-align: center;
+  padding: 20px 0;
+}
+
+.curriculum .fila{
+display: flex;
+justify-content: space-between;
+}
+.curriculum .fila .col{
+padding: 0 20px;
+}
+
+.curriculum .fila .col h3{
+font-size: 28px;
+font-family: 'Righteous';
+margin-bottom: 25px;
+}
+
+.curriculum .fila .derecha{
+  border-left:2px solid #252A2E ;
+}
+
+
+.curriculum .fila .item{
+padding: 25px;
+margin-bottom:30px;
+background-color: #252A2E;
+position: relative;
+}
+
+.curriculum .fila .item h4{
+font-size: 20px;
+margin-bottom: 10px;
+}
+.curriculum .fila .item .casa{
+color: #1CB698;
+font-size: 22px;
+font-weight: bold;
+display: block;
+}
+
+.curriculum .fila .item .fecha{
+  display: block;
+  color: #1CB698;
+  margin-bottom:10px;
+}
+
+.curriculum .fila .item p{
+  line-height: 24px;
+}
+.curriculum .fila .izq{
+  border-right:2px solid #1CB698 ;
+  margin-right: 20px;
+}
+.curriculum .fila .der{
+  border-left:2px solid #1CB698 ;
+  margin-left: 20px;
+}
+
+.curriculum .fila .item .conectori{
+  height:  2px;
+  background-color: #1CB698;
+  width: 47px;
+  position: absolute;
+  top: 50%;
+  right: -47px;
+  z-index: 5;
+}
+.curriculum .fila .item .circuloi{
+display: block;
+height: 10px;
+width: 10px;
+border-radius: 50%;
+background-color: #1CB698;
+float: right;
+position: relative;
+bottom: 4px;
+}
+
+.curriculum .fila .item .conectord{
+  height:  2px;
+  background-color: #1CB698;
+  width: 47px;
+  position: absolute;
+  top: 50%;
+  left: -47px;
+  z-index: 5;
+}
+.curriculum .fila .item .circulod{
+display: block;
+height: 10px;
+width: 10px;
+border-radius: 50%;
+background-color: #1CB698;
+float: left;
+position: relative;
+bottom: 4px;
+}
+
+.portfolio{
+background-color: #1e2326;
+color: #ffff;
+padding: 0px 50px ;
+
+}
+
+.portfolio .contenido-seccion{
+  max-width: 1100px;
+  margin: auto;
+}
+.portfolio h2{
+  font-size: 48px;
+  font-family: 'Righteous';
+  text-align: center;
+  padding: 20px 0;
+}
+
+.portfolio .galeria{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+ .portfolio .galeria .proyecto{
+  position: relative;
+  max-width: 340px;
+  height: fit-content;
+  margin: 10px;
+  cursor: pointer;
+ }
+ .portfolio .galeria .proyecto img{
+  width: 100%;
+  display: block;
+ }
+ .portfolio .galeria .proyecto .overlay{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background: linear-gradient(rgba(20,182,152,.8),rgba(28,182,152,.8));
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: 1%;
+  font-size: 18px;
+  letter-spacing: 3px;
+  opacity: 0;
+ }
+ .portfolio .galeria .proyecto .overlay h3{
+  margin-bottom: 20px;
+  transition: 1s;
+ }
+
+ .portfolio .galeria .proyecto .overlay:hover{
+  opacity: 1;
+ }
+ .portfolio .galeria .proyecto .overlay:hover h3{
+ margin-bottom:0px;
+ }
 </style>
 
 
