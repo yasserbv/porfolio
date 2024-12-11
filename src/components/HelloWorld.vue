@@ -17,7 +17,7 @@
         <li><a href="#sobremi">SOBRE MI</a></li>
         <li><a href="#skills">SKILLS</a></li>
         <li><a href="#curriculum">CURRICULUM</a></li>
-        <li><a href="#portfolio">PORTFOLIO</a></li>
+        
         
        </ul>
      </nav>
